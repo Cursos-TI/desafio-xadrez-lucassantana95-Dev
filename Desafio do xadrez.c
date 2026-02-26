@@ -31,6 +31,21 @@
             r++;//colocar sempre para acrescentar +1 e chegar ao valor definido de vezes
         }while (r <= movimentoRainha);
         printf("\n");
+         
+        // Movimento do cavalo(loop aninhados)
+        // Mover 2 para baixo uma para esquerda.
+        printf("Movimento do cavalo:\n");
+        for (int j = 1; j <= 2; j++){
+            printf("Baixo\n");
+            int k = 1;
+            if(j == 2)// coloca 2 '=' para poder comparar
+           
+            while (k == 1){         //executa apenas 1 vez
+                printf("Esquerda\n");
+                k++; }
+        
+         }
+        printf("\n");
 
         return 0;
 
